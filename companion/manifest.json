@@ -1,0 +1,28 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"id": "albin-och-pi-decoder",
+	"name": "OCH Pi-Decoder",
+	"shortname": "Pi-Decoder",
+	"description": "Control and monitor the OCH Pi-Decoder Raspberry Pi video decoder with Planning Center Online countdown overlay",
+	"version": "1.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/albin-user/och-pi-decoder.git",
+	"bugs": "https://github.com/albin-user/och-pi-decoder/issues",
+	"maintainers": [
+		{
+			"name": "OCH Pi-Decoder Module Author",
+			"email": ""
+		}
+	],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../src/main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "OCH",
+	"products": ["Pi-Decoder"],
+	"keywords": ["raspberry pi", "video decoder", "planning center", "pco", "hls", "rtmp", "cec"]
+}
+
